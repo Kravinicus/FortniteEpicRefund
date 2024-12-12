@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('your-image-link.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fortnite', sans-serif; /* Use Fortnite-like font, or any other web-safe font if unavailable */
+    color: #ffcc00; /* Fortnite yellow color */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.flashing-text {
+    font-size: 3em;
+    color: #ffcc00; /* Fortnite yellow color */
+    font-weight: bold;
+    animation: flash 1.5s infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
